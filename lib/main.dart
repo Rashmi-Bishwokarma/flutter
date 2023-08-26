@@ -18,9 +18,6 @@ class MyApp extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
-      
-        child: SizedBox(
-            width: double.maxFinite,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
            
@@ -58,7 +55,7 @@ class MyApp extends StatelessWidget {
            ) ],
         
           ),
-        )),
+        ),
     );
   }
 }
